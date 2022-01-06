@@ -76,3 +76,55 @@ img {
     width: 430px;
 }
 /* header-area-end */
+
+/* box-area-start */
+
+.box img {
+    width: 141px;
+}
+.mission {
+	margin-bottom: 70px;
+}
+.title {
+    text-align: center;
+    font-size: 48px;
+    line-height: 70px;
+    margin-bottom: 40px;
+}
+.box {
+    background: #EDF5F6;
+    border-radius: 20px;
+    padding: 20px 37px;
+    padding-bottom: 28px !important;
+    transition: 0.3s;
+}
+.box:hover {
+    
+    transform: translateY(-15px);
+}
+.box1:hover {
+    box-shadow: 0px 0px 10px #edf5f6;
+}
+.box2 {
+    margin: 0 20px;
+    background: #FFEEEE;
+}
+.box2:hover {
+    box-shadow: 0px 0px 10px #FFEEEE;
+}
+.box3 {
+    background: #FFF4D6;
+}
+.box3:hover {
+    box-shadow: 0px 0px 10px #FFF4D6;
+}
+.box h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.box p {
+    font-size: 16px;
+    color: #424242;
+}
+
+/* box-end */
