@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+ font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px 0px;
+}
+img {
+    width: 100%;
+}
+.container {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.orange-color {
+    color: #FFAD5A;
+}
+
+/* header-area-start */
+.header-area {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.header-left {
+    padding-right: 140px;
+}
+.header-left h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    line-height: 80px;
+    color: #333333;
+    margin: 0;
+    padding-left: 16px;
+}
+
+.border {
+    position: absolute;
+    background: #FF5959;
+    width: 4px;
+    height: 125px;
+    top: 11%;
+    border-radius: 192px;
+  }
+  .header-title {
+    position: relative;
+  }
+.hire-button {
+    text-decoration: none;
+    color: #fff;
+    background: #FF5959;
+    width: 170px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.person-pic img {
+    width: 430px;
+}
+/* header-area-end */
