@@ -128,3 +128,40 @@ img {
 }
 
 /* box-end */
+
+  /* coding-area-start */
+.coding-img {
+    position: relative;
+}
+  .coding-img img {
+    width: 400px;
+}
+  .shape {
+    width: 175px;
+    position: absolute;
+    top: 14%;
+    left: -19%;
+    z-index: -9;
+}
+  .shape img {
+    width: 100%;
+}
+  .coding-text {
+    margin-left: 70px;
+}
+  .coding-text h2 {
+    font-size: 36px;
+}
+.coding-area {
+	margin-bottom: 100px;
+}
+.shapes .coding-text {
+    margin-left: 0;
+    margin-right: 113px;
+  }
+  
+  .shapes .shape {
+      top: 71%;
+      left: 75%;
+    }
+  /* coding-end */
